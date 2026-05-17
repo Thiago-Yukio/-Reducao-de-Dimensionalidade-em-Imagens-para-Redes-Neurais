@@ -13,6 +13,7 @@ Este projeto tem como objetivo demonstrar a redução de dimensionalidade em ima
 - Python
 - OpenCV
 - Unsplash
+- Google Colab
 
 ---
 
