@@ -1,0 +1,20 @@
+**Bibliotecas Usadas:**
+import numpy as np
+import cv2 as cv
+from google.colab.patches import cv2_imshow
+
+
+face_classifier= cv.CascadeClassifier('haarcascade_frontalface_default.xml')
+
+
+**Imagem PNG baixado e guardado dentro de uma variável:**
+image=cv.imread('image2.png')
+
+
+**IMAGEM COLORIDA:**
+cv2_imshow(image)
+
+**IMAGEM PRETO E BRANCO:**
+image_gray=cv.cvtColor(image,cv.COLOR_BGR2GRAY)
+cv2_imshow(image_gray)
+
